@@ -125,7 +125,7 @@ Employee.create({
   })
 
 #################### vacation info assigned to:
-15.times do Vacaion.create({date_taken: Faker::Date.between(Date.now - 14, Date.now)})
+15.times do Vacation.create({date_taken: Faker::Date.between(Date.now - 14, Date.now)})
 ##### ORRRR...
 
 Vacation.create({date_taken: "02/13/01", days_left: 10 })
