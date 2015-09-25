@@ -142,7 +142,7 @@ Vacation.create({date_taken: "09/30/10", days_left: 07 })
 
 Vacation.create({date_taken: "02/17/15", days_left: 14 })
 
-Vacation.create({date_taken: "10/01/01", days_left: 12 })
+Vacation.create({date_taken: "10/01/00", days_left: 12 })
 
 Vacation.create({date_taken: "04/09/11", days_left: 08 })
 
