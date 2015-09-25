@@ -14,7 +14,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ##Instructions
 ###To view employee data individually:
-- Send a `GET`request to https:// . The response will be in JSON format with the following parameters:
+- Send a `GET` request to https:// /employees/ID. The response will be in JSON format with the following parameters:
 
 ```
       name: "string"
@@ -27,7 +27,7 @@ This project consisted of a team of four people collaborating together. To visit
 ```
 
 ###To view a list of all employees:
-- Send a `GET` request to https:// . The response will be in JSON format with the following parameters:
+- Send a `GET` request to https:// /employees. The response will be in JSON format with the following parameters:
 
 ```
       name: "string"
@@ -39,6 +39,44 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
 
+###To create a new employee:
+- Send a `POST` request to https:// /employees. The response will be in JSON format with the following parameters:
+
+```
+      name: "string"
+      dept: "string"
+      yrs_employed: "string"
+      position: "string"
+      status: "string"
+      pay: "string"
+
+```
+
+###To update an employee record:
+- Send a `PUT` request to https:// /employees. The response will be in JSON format with the following parameters:
+
+```
+      name: "string"
+      dept: "string"
+      yrs_employed: "string"
+      position: "string"
+      status: "string"
+      pay: "string"
+
+```
+
+###To delete an employee record:
+- Send a `DELETE` request to https:// /employees/ID. The response will be in JSON format with the following parameters:
+
+```
+      name: "string"
+      dept: "string"
+      yrs_employed: "string"
+      position: "string"
+      status: "string"
+      pay: "string"
+
+```
 
 
 
