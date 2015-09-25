@@ -1,15 +1,12 @@
 #HR Pro
 ##Description
-This project consisted of a team of four people collaborating together. To visit the HR Pro application, go here. <a href= "" > here</a>.
-
-##Instructions
-
+This project consisted of a team of four people collaborating together. To visit the HR Pro application, go here: <a href= "" > here</a>.
 ##Features
 - names of employees
 - department in which employees work
 - years of employees are employeed
 - position of employee
-- work status of employee is either "full-time" or part-time
+- work status of employee is either "full-time" or "part-time"
 - employee pay is either "hourly" or "salary"?
 
 ##Instructions
@@ -17,12 +14,12 @@ This project consisted of a team of four people collaborating together. To visit
 - Send a `GET` request to https:// /employees/ID. The response will be in JSON format with the following parameters:
 
 ```
-      name: "string"
-      dept: "string"
-      yrs_employed: "string"
-      position: "string"
-      status: "string"
-      pay: "string"
+      name:         "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
 
 ```
 
@@ -30,12 +27,12 @@ This project consisted of a team of four people collaborating together. To visit
 - Send a `GET` request to https:// /employees. The response will be in JSON format with the following parameters:
 
 ```
-      name: "string"
-      dept: "string"
-      yrs_employed: "string"
-      position: "string"
-      status: "string"
-      pay: "string"
+      name:         "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
 
 ```
 
@@ -43,12 +40,12 @@ This project consisted of a team of four people collaborating together. To visit
 - Send a `POST` request to https:// /employees. The response will be in JSON format with the following parameters:
 
 ```
-      name: "string"
-      dept: "string"
-      yrs_employed: "string"
-      position: "string"
-      status: "string"
-      pay: "string"
+      name:         "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
 
 ```
 
@@ -56,12 +53,12 @@ This project consisted of a team of four people collaborating together. To visit
 - Send a `PUT` request to https:// /employees. The response will be in JSON format with the following parameters:
 
 ```
-      name: "string"
-      dept: "string"
-      yrs_employed: "string"
-      position: "string"
-      status: "string"
-      pay: "string"
+      name:         "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
 
 ```
 
@@ -69,17 +66,11 @@ This project consisted of a team of four people collaborating together. To visit
 - Send a `DELETE` request to https:// /employees/ID. The response will be in JSON format with the following parameters:
 
 ```
-      name: "string"
-      dept: "string"
-      yrs_employed: "string"
-      position: "string"
-      status: "string"
-      pay: "string"
+      name:         "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
 
 ```
-
-
-
-
-
-
