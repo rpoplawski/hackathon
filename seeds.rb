@@ -161,7 +161,7 @@
 # #date = Faker::Date.between(10.years.ago, Date.today)
 # #date.strftime(“%m/%d/%y”)
 
-# employee = Employee.create({
+# employee1 = Employee.create({
 #   name:       "James Leaps",
 #   dept:       "Sporting Goods",
 #   yrs_employed: 12,
@@ -173,7 +173,7 @@
 #   employee_id: 327,
 #   date_taken: "02/13/01",
 #   days_left: 10,
-#   employee_id: employee.id
+#   employee_id: employee1.id
 #   })
 
 # employee2 = Employee.create({
@@ -384,7 +384,7 @@
 
   employee.vacations.build({
     date_taken: Faker::Date.backward(3650)
-    days_left: (0..14).sample
+    days_left: [0..14].sample
     })
 end
 
