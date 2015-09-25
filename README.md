@@ -74,3 +74,6 @@ This project consisted of a team of four people collaborating together. To visit
       pay:          "string"
 
 ```
+
+##Tables
+<imgsrc = "./UML.png">
