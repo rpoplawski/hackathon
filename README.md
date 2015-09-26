@@ -15,6 +15,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
+      days_left:    "integer"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -28,6 +29,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
+      days_left:    "integer"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -41,6 +43,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
+      days_left:    "integer"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -54,6 +57,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
+      days_left:    "integer"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -67,6 +71,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
+      days_left:    "integer"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -74,6 +79,12 @@ This project consisted of a team of four people collaborating together. To visit
       pay:          "string"
 
 ```
+
+###To view a list of all of the vacation days taken by a particular employee:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id/vacations`. The response will be: "Employee terminated and record deleted successfully."
+
+```
+
 
 ##Tables
 <img src = "./UML.png">
