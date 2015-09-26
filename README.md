@@ -11,7 +11,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ##Instructions
 ###To view employee data individually:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/ID`. The response will be in JSON format with the following parameters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
@@ -67,7 +67,7 @@ This project consisted of a team of four people collaborating together. To visit
 ```
 
 ###To delete an employee record:
-- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/ID`. The response will be in JSON format with the following parameters:
+- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
