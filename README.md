@@ -15,7 +15,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
-      days_left:    "integer"
+      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -29,7 +29,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
-      days_left:    "integer"
+      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -43,7 +43,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
-      days_left:    "integer"
+      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -57,7 +57,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
-      days_left:    "integer"
+      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -71,7 +71,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
-      days_left:    "integer"
+      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
@@ -85,7 +85,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
       name:         "string"
-      days_left:    "integer"
+      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
