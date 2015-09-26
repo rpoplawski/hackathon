@@ -95,4 +95,4 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
 ##Tables
-<img src = "./Hackathon(1).png">
+<img src = "./UML.png">
