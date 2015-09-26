@@ -84,7 +84,15 @@ This project consisted of a team of four people collaborating together. To visit
 - Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id/vacations`. The response will be: "Employee terminated and record deleted successfully."
 
 ```
+      name:         "string"
+      days_left:    "integer"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
+      days_taken:   "string"
 
 ```
 ##Tables
-<img src = "./UML.png">
+<img src = "./Hackathon(1).png">
