@@ -76,4 +76,4 @@ This project consisted of a team of four people collaborating together. To visit
 ```
 
 ##Tables
-<imgsrc = "./UML.png">
+<img src = "./UML.png">
