@@ -88,8 +88,7 @@ This project consisted of a team of four people collaborating together to design
 ```
 
 ###To delete an employee record:
-- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/:id`. The response will be: "Employee terminated and record deleted successfully."
-Additionally, the following message will appear:
+- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/:id`. The response will be:
 
 ```
 { message: "Employee terminated and record deleted successfully." } with a status of 200
