@@ -41,7 +41,7 @@ This project consisted of a team of four people collaborating together to design
 ```
 
 ###To view a list of all the employees by work status:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/status/:status`. The response will be in JSON format with the following paramters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/status/status`. The response will be in JSON format with the following paramters:
 
 ```
       name:         "string"
@@ -98,7 +98,7 @@ This project consisted of a team of four people collaborating together to design
 ```
 
 ###To view a list of all of the vacation days taken by a particular employee:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id/vacations`. The response will be in JSON format with the following parameters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
@@ -113,7 +113,22 @@ This project consisted of a team of four people collaborating together to design
 ```
 
 ###To view a list of all of the employees and their corresponding number of days remaining for vacation:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/days_left/:days_left`. The response will be in JSON format with the following parameters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be in JSON format with the following parameters:
+
+```
+      name:         "string"
+      days_left:    "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
+
+```
+
+###To create a new vacation day:
+- Send a `POST` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/new`. The response will be in JSON format with the following parameters:
+
 
 ```
       name:         "string"
@@ -126,5 +141,38 @@ This project consisted of a team of four people collaborating together to design
       days_taken:   "string"
 
 ```
+
+###To update an vacation record:
+- Send a `PUT` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be in JSON format with the following parameters:
+
+
+```
+      name:         "string"
+      days_left:    "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
+      days_taken:   "string"
+
+```
+
+###To delete an vacation record:
+- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be: "Vacation record deleted successfully."
+
+```
+      name:         "string"
+      days_left:    "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
+      days_taken:   "string"
+
+```
+
+
 ##Tables
 <img src = "./UML.png">
