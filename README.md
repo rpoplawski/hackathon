@@ -2,14 +2,16 @@
 ##Description
 This project consisted of a team of four people collaborating together to design, create, and build a working application. This program allows users to enter personal data and retrieve information regarding employment as it pertains to employees. To visit the HR Pro application, go <a href="https://secure-fjord-5088.herokuapp.com">here</a>.
 ##Features
-- names of employees
-- department in which employees work
-- years employees are employed
-- position of employee
-- work status of employee is either "full-time" or "part-time"
-- employee pay is either "hourly" or "salary"
-- vacation days remaining that an employee may utilize
-- vacation date taken by a particular employee
+- The ability to list all employees, both collectively and individulally
+- The ability to display employees' work status & vacation days.
+-- names of employees
+-- department in which employees work
+-- years employees are employed
+-- position of employee
+-- work status of employee is either "full-time" or "part-time"
+-- employee pay is either "hourly" or "salary"
+-- vacation days remaining that an employee may utilize
+-- vacation date taken by a particular employee
 
 ##Instructions
 ###To view a list of all employees:
