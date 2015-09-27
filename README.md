@@ -142,7 +142,7 @@ This project consisted of a team of four people collaborating together to design
 
 ```
 
-###To update an vacation record:
+###To update a vacation record:
 - Send a `PUT` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be in JSON format with the following parameters:
 
 
@@ -158,7 +158,7 @@ This project consisted of a team of four people collaborating together to design
 
 ```
 
-###To delete an vacation record:
+###To delete a vacation record:
 - Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be: "Vacation record deleted successfully."
 
 ```
