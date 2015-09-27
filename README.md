@@ -175,4 +175,4 @@ This project consisted of a team of four people collaborating together to design
 
 
 ##Tables
-<img src = "./UML.png">
+<img src = "./HackathonUML.png">
