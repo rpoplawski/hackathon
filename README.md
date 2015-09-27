@@ -110,7 +110,7 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
 
-###To view a list of all of the employees and the number of days left for vacation:
+###To view a list of all of the employees and their coresponding number of days remaining for vacation:
 - Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/days_left/:days_left`. The response will be in JSON format with the following parameters:
 
 ```
