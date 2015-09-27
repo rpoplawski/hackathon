@@ -38,6 +38,21 @@ This project consisted of a team of four people collaborating together. To visit
 
 ```
 
+###To view a list of all the employees by work status:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/status/:status`. The response will be in JSON format with the following paramters:
+
+```
+      name:         "string"
+      days_left:    "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
+      days_taken:   "string"
+
+```
+
 ###To create a new employee:
 - Send a `POST` request to `https://secure-fjord-5088.herokuapp.com/employees`. The response will be in JSON format with the following parameters:
 
@@ -67,7 +82,7 @@ This project consisted of a team of four people collaborating together. To visit
 ```
 
 ###To delete an employee record:
-- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
+- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be: "Employee terminated and record deleted successfully."
 
 ```
       name:         "string"
@@ -81,7 +96,22 @@ This project consisted of a team of four people collaborating together. To visit
 ```
 
 ###To view a list of all of the vacation days taken by a particular employee:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id/vacations`. The response will be: "Employee terminated and record deleted successfully."
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id/vacations`. The response will be in JSON format with the following parameters:
+
+```
+      name:         "string"
+      days_left:    "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
+      days_taken:   "string"
+
+```
+
+###To view a list of all of the employees and the number of days left for vacation:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/days_left/:days_left`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
