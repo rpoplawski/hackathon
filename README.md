@@ -5,15 +5,18 @@ This project consisted of a team of four people collaborating together to design
 - The ability to list all employees, both collectively and individulally
 - The ability to display employees' work status & vacation days.
 
+####Employee features:
+
 ```
-      - names of employees
-      - department in which employees work
-      - years employees are employed
-      - position of employee
-      - work status of employee is either "full-time" or "part-time"
-      - employee pay is either "hourly" or "salary"
-      - vacation days remaining that an employee may utilize
-      - vacation date taken by a particular employee
+
+      names of employees
+      department in which employees work
+      years employees are employed
+      position of employee
+      work status of employee is either "full-time" or "part-time"
+      employee pay is either "hourly" or "salary"
+      vacation days remaining that an employee may utilize
+      vacation date taken by a particular employee
 
 ```
 
