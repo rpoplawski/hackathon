@@ -99,8 +99,8 @@ Once the employee is deleted, if a `DELETE` request is sent again on the same id
 
 ```
 
-###To view a list of all of employee records and their corresponding number of days remaining for vacation:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/vacations/id`. The response will be in JSON format with the following parameters:
+###To view a list of day taken by and their corresponding number of days remaining for vacation:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/days_left/:days_left`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
@@ -115,49 +115,18 @@ Once the employee is deleted, if a `DELETE` request is sent again on the same id
 ```
 
 ###To view a list of all of the vacation days taken by a particular employee:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/vacations`. The response will be in JSON format with the following parameters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/vacations`. The response will be in JSON format with the following parameter:
 
 ```
-      name:         "string"
-      dept:         "string"
-      yrs_employed: "integer"
-      position:     "string"
-      status:       "string"
-      pay:          "string"
-      days_left:    "string"
-      days_taken:   "string"
-
+      date_taken:  "string"
 
 ```
 
-###To create a new vacation day:
-- Send a `POST` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/new`. The response will be in JSON format with the following parameters:
+###To create a new vacation date taken:
+- Send a `POST` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/vacations`. The response will be in JSON format with the following parameters:
 
 
 ```
-      name:         "string"
-      dept:         "string"
-      yrs_employed: "integer"
-      position:     "string"
-      status:       "string"
-      pay:          "string"
-      days_left:    "string"
-      days_taken:   "string"
-
-```
-
-###To update a vacation record:
-- Send a `PUT` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be in JSON format with the following parameters:
-
-
-```
-      name:         "string"
-      dept:         "string"
-      yrs_employed: "integer"
-      position:     "string"
-      status:       "string"
-      pay:          "string"
-      days_left:    "string"
       days_taken:   "string"
 
 ```
