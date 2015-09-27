@@ -22,41 +22,40 @@ This project consisted of a team of four people collaborating together to design
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
+      days_left:    "string"
 
 ```
 
 ###To view employee data individually:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/:id`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
+      days_left:    "string"
 
 ```
 
 ###To view a list of all the employees by work status:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/status/status`. The response will be in JSON format with the following paramters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/status/:status`. The response will be in JSON format with the following paramters:
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
-      days_taken:   "string"
+      days_left:    "string"
 
 ```
 
@@ -65,40 +64,39 @@ This project consisted of a team of four people collaborating together to design
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
+      days_left:    "string"
 
 ```
 
 ###To update an employee record:
-- Send a `PUT` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
+- Send a `PUT` request to `https://secure-fjord-5088.herokuapp.com/employees/:id`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
+      days_left:    "string"
 
 ```
 
 ###To delete an employee record:
-- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be: "Employee terminated and record deleted successfully."
+- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/:id`. The response will be: "Employee terminated and record deleted successfully."
+Additionally, the following message will appear:
 
 ```
-      name:         "string"
-      days_left:    "string"
-      dept:         "string"
-      yrs_employed: "integer"
-      position:     "string"
-      status:       "string"
-      pay:          "string"
+{ message: "Employee terminated and record deleted successfully." } with a status of 200
+
+Once the employee is deleted, the json message rendered is:
+
+{ error_msg: "No valid employee found.", id: params[:id] }.to_json with a status of 404
 
 ```
 
