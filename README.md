@@ -12,8 +12,8 @@ This project consisted of a team of four people collaborating together to design
 - vacation date taken by a particular employee
 
 ##Instructions
-###To view employee data individually:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
+###To view a list of all employees:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
@@ -26,8 +26,8 @@ This project consisted of a team of four people collaborating together to design
 
 ```
 
-###To view a list of all employees:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees`. The response will be in JSON format with the following parameters:
+###To view employee data individually:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
@@ -55,7 +55,7 @@ This project consisted of a team of four people collaborating together to design
 
 ```
 
-###To create a new employee:
+###To create a new employee record:
 - Send a `POST` request to `https://secure-fjord-5088.herokuapp.com/employees`. The response will be in JSON format with the following parameters:
 
 ```
@@ -70,7 +70,7 @@ This project consisted of a team of four people collaborating together to design
 ```
 
 ###To update an employee record:
-- Send a `PUT` request to `https://secure-fjord-5088.herokuapp.com/employees`. The response will be in JSON format with the following parameters:
+- Send a `PUT` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
@@ -97,6 +97,20 @@ This project consisted of a team of four people collaborating together to design
 
 ```
 
+###To view a list of all of employee records and their corresponding number of days remaining for vacation:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be in JSON format with the following parameters:
+
+```
+      name:         "string"
+      days_left:    "string"
+      dept:         "string"
+      yrs_employed: "integer"
+      position:     "string"
+      status:       "string"
+      pay:          "string"
+
+```
+
 ###To view a list of all of the vacation days taken by a particular employee:
 - Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations`. The response will be in JSON format with the following parameters:
 
@@ -109,20 +123,6 @@ This project consisted of a team of four people collaborating together to design
       status:       "string"
       pay:          "string"
       days_taken:   "string"
-
-```
-
-###To view a list of all of the employees and their corresponding number of days remaining for vacation:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be in JSON format with the following parameters:
-
-```
-      name:         "string"
-      days_left:    "string"
-      dept:         "string"
-      yrs_employed: "integer"
-      position:     "string"
-      status:       "string"
-      pay:          "string"
 
 ```
 
