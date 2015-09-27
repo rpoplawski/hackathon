@@ -93,38 +93,40 @@ This project consisted of a team of four people collaborating together to design
 ```
 { message: "Employee terminated and record deleted successfully." } with a status of 200
 
-Once the employee is deleted, the json message rendered is:
+Once the employee is deleted, if a `DELETE` request is sent again on the same id, the message rendered is:
 
-{ error_msg: "No valid employee found.", id: params[:id] }.to_json with a status of 404
+{ error_msg: "No valid employee found.", id: params[:id] } with a status of 404
 
 ```
 
 ###To view a list of all of employee records and their corresponding number of days remaining for vacation:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be in JSON format with the following parameters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/vacations/id`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
+      days_left:    "string"
+      days_taken:   "string"
 
 ```
 
 ###To view a list of all of the vacation days taken by a particular employee:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations`. The response will be in JSON format with the following parameters:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/vacations`. The response will be in JSON format with the following parameters:
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
+      days_left:    "string"
       days_taken:   "string"
+
 
 ```
 
@@ -134,12 +136,12 @@ Once the employee is deleted, the json message rendered is:
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
+      days_left:    "string"
       days_taken:   "string"
 
 ```
@@ -150,12 +152,12 @@ Once the employee is deleted, the json message rendered is:
 
 ```
       name:         "string"
-      days_left:    "string"
       dept:         "string"
       yrs_employed: "integer"
       position:     "string"
       status:       "string"
       pay:          "string"
+      days_left:    "string"
       days_taken:   "string"
 
 ```
