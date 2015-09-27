@@ -4,11 +4,12 @@ This project consisted of a team of four people collaborating together to design
 ##Features
 - names of employees
 - department in which employees work
-- years of employees are employeed
+- years of employees are employed
 - position of employee
 - work status of employee is either "full-time" or "part-time"
 - employee pay is either "hourly" or "salary"?
-
+- vacation days remaining that an employee may utilize
+- vacation date taken by a particular employee
 ##Instructions
 ###To view employee data individually:
 - Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/id`. The response will be in JSON format with the following parameters:
