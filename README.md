@@ -163,21 +163,5 @@ This project consisted of a team of four people collaborating together to design
 
 ```
 
-###To delete a vacation record:
-- Send a `DELETE` request to `https://secure-fjord-5088.herokuapp.com/employees/employee_id/vacations/id`. The response will be: "Vacation record deleted successfully."
-
-```
-      name:         "string"
-      days_left:    "string"
-      dept:         "string"
-      yrs_employed: "integer"
-      position:     "string"
-      status:       "string"
-      pay:          "string"
-      days_taken:   "string"
-
-```
-
-
 ##Tables
 <img src = "./HackathonUML.png">
