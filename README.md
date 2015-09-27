@@ -4,6 +4,8 @@ This project consisted of a team of four people collaborating together to design
 ##Features
 - The ability to list all employees, both collectively and individulally
 - The ability to display employees' work status & vacation days.
+
+```
 -- names of employees
 -- department in which employees work
 -- years employees are employed
@@ -12,6 +14,8 @@ This project consisted of a team of four people collaborating together to design
 -- employee pay is either "hourly" or "salary"
 -- vacation days remaining that an employee may utilize
 -- vacation date taken by a particular employee
+
+```
 
 ##Instructions
 ###To view a list of all employees:
