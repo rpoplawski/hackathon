@@ -1,11 +1,11 @@
 #HR Pro
 ##Description
 This project consisted of a team of four people collaborating together to design, create, and build a working application. This program allows users to enter personal data and retrieve information regarding employment as it pertains to employees. To visit the HR Pro application, go <a href="https://secure-fjord-5088.herokuapp.com">here</a>.
-##Features
+##Application features:
 - The ability to list all employees, both collectively and individulally
 - The ability to display employees' work status & vacation days.
 
-###Employee features:
+###Employee and vacation features:
 
       -names of employees
       -department in which employees work
