@@ -115,7 +115,7 @@ Once the employee is deleted, if a `DELETE` request is sent again on the same id
 ```
 
 ###To view a list of all of the vacation days taken by a particular employee:
-- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/days_left`. The response will be in JSON format with the following parameter:
+- Send a `GET` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/:days_left`. The response will be in JSON format with the following parameter:
 
 ```
       date_taken:  "string"
@@ -123,7 +123,7 @@ Once the employee is deleted, if a `DELETE` request is sent again on the same id
 ```
 
 ###To create a new vacation date taken:
-- Send a `POST` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/days_taken`. The response will be in JSON format with the following parameters:
+- Send a `POST` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/:days_taken`. The response will be in JSON format with the following parameters:
 
 
 ```
