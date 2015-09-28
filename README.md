@@ -122,14 +122,14 @@ Once the employee is deleted, if a `DELETE` request is sent again on the same id
 
 ```
 
-###To create a new vacation date taken:
+<!-- ###To create a new vacation date taken:
 - Send a `POST` request to `https://secure-fjord-5088.herokuapp.com/employees/:id/:days_taken`. The response will be in JSON format with the following parameters:
 
 
 ```
       days_taken:   "string"
 
-```
+``` -->
 
 ##Tables
 <img src = "./HackathonUML.png">
