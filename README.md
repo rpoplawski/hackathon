@@ -1,6 +1,6 @@
 #HR PRO
 ##Description
- This program is intended for management-level users to access personal data and retrieve information regarding employment data as it pertains to employees. To visit the HRPRO application, go <a href="https://secure-fjord-5088.herokuapp.com">here</a>.
+ This program is intended for management-level users to access personal data and retrieve information regarding employment data as it pertains to employees. To visit the HR PRO application, go <a href="https://secure-fjord-5088.herokuapp.com">here</a>.
 ##Application features:
 - The ability to list all employees, both collectively and individulally
 - The ability to create, update, and delete records with respect to work status & vacation days.
